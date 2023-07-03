@@ -67,7 +67,7 @@ class Timeular(API):
     _api_key = None
     _api_secret = None
 
-    def __init__(self, api_key='', api_secret='', base_url='https://api.timeular.com/api/v2'):
+    def __init__(self, api_key='', api_secret='', base_url='https://api.timeular.com/api/v3'):
         super(Timeular, self).__init__(base_url)
         self._api_key = api_key
         self._api_secret = api_secret
